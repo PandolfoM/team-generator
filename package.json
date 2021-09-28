@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PandolfoM/team-generator#readme",
   "dependencies": {
+    "bulma": "^0.9.3",
     "font-awesome": "^4.7.0",
     "inquirer": "^8.1.5",
     "jest": "^27.2.1"
