@@ -1,7 +1,4 @@
-const Manager = require("./lib/Manager");
-
-function generateHTML(data) {
-  console.log(data)
+const generateHTML = (data) => {
   return `
   <!DOCTYPE html>
     <html lang="en">
@@ -16,8 +13,6 @@ function generateHTML(data) {
     </head>
     <body>
       ${data}
-    </body>
-    </html>
   `
 }
 
